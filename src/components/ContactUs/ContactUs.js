@@ -17,20 +17,20 @@ export default function ContactUs() {
   return (
     <>
 
-      <div class="max-w-[85rem] mx-auto  lg:px-2 pb-[100px] clsContact  lg:mt-[30px] min-h-[530px]">
+      <div class="max-w-[85rem] mx-auto  lg:px-2 pb-[100px] clsContact  lg:mt-[10px] min-h-[530px]">
       
         <div class="flex flex-wrap pr-[0px] ">
 
           <div class="grow-0 shrink-0 basis-auto mb-6 mt-[1rem] md:mb-0 w-full  px-3 lg:px-6">
-            <h2 class="text-3xl font-bold mb-8 text-center text-[#333] text-[36px] capitalize">
+            <h2 class="text-3xl  font-bold mb-8 text-center text-[#333] text-[40px] capitalize clsContactHeading">
               {title}
               
             </h2>
             <div class="clsAddressSection block md:flex md:justify-center ">
-            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  w-[30%] clsFirstAddress">
+            <div class="flex items-start rounded-xl bg-white p-5 shadow-lg  w-[30%] clsFirstAddress">
         
 
-              <div class="ml-4">
+              <div class="">
               <p
                   class=" mb-2 flex items-start pl-1 text-[#a51720] text-[20px] "
                   dangerouslySetInnerHTML={{ __html: heading1 }}
@@ -44,10 +44,10 @@ export default function ContactUs() {
 
 <br/>
 
-            <div class="flex items-start rounded-xl bg-white p-4 shadow-lg  w-[30%] clsSecondAddress">
+            <div class="flex items-start rounded-xl bg-white p-5 shadow-lg  w-[30%] clsSecondAddress">
         
 
-              <div class="ml-4">
+              <div class="">
               <p
                   class=" mb-2 flex items-start text-[#a51720] pl-1 text-[20px] "
                   dangerouslySetInnerHTML={{ __html: heading2 }}
@@ -69,10 +69,10 @@ export default function ContactUs() {
               </div> */}
 
               <div class="flex">
-              <div class=" text-[26px] text-[#333]  font-bold">Reach us at: </div>
+              <div class=" text-[26px] text-[#333]  font-bold clsReachTxt">Reach us at: </div>
               <div class="pl-[0.5rem]">
                 <a
-                  class=" text-[26px] text-[#a51720] text-left font-bold"  
+                  class=" text-[26px] text-[#a51720] text-left font-bold clsReachTxt"  
                   dangerouslySetInnerHTML={{ __html: Mail }}
                 ></a></div>
               </div>

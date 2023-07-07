@@ -85,10 +85,10 @@ const GalleryTrip = () => {
           {slice &&
             slice.map((slide, index) => {
               return (
-                <section class="py-[0.9rem]">
-                  <div class="flex flex-wrap -mx-4 -mb-[4.8rem]">
+                <section class="clsImgsec">
+                  <div class="flex flex-wrap">
                     <div
-                      className="single md:w-1/4  mb-2"
+                      className="single md:w-1/4"
                       key={index}
                       onClick={() => handleOpenModal(index)}
                     >

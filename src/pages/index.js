@@ -22,16 +22,11 @@ export default function index() {
       <Header />
       <div clasName="clsHomeContainer">
         <Carousel />
-        <div class="clsAboutUsTwo">
+         <div class="clsAboutUsTwo">
         <AboutUsTwo />
         </div>
-        <div clasName="blobs">
-          <div class="shape-blob"></div>
-	        <div class="shape-blob one"></div>
-          <div class="shape-blob three"></div>
-        </div>
        
-
+  
         <div class="clsHomeGallery">
         <Homegallery />
         </div>
@@ -40,10 +35,13 @@ export default function index() {
         <div class="clsContactbg"  >   
               <div class="clshomecontact pb-[100px]" style={{backgroundImage: `url(${contactbg})`,backgroundSize:`contain`, backgroundRepeat: `no-repeat`,backgroundPosition: `bottom 49px center`,}}>
                <ContactUs />
-          </div></div>
+              </div>
+       </div>
         
       </div>
+      <div>
       <Footer />
+      </div>
     </>
   )
 }

@@ -11,35 +11,35 @@ const archiveTemplate = ({
 }) => (
   <>
     <Header />
-    <div class="max-w-[85rem] mx-auto  lg:px-6 flex lg:mb-[100px] min-h-[650px] clsteamContainer">
-      <div class="mb-10 md:mb-16  max-w-[34%] pr-[75px] fixed mt-[7.5rem] clsteamContent">
-        <h2 class="text-3xl font-bold mb-6 text-[#000] text-[40px] capitalize pt-4">
+    <div class="max-w-[85rem] mx-auto  lg:px-6 flex  min-h-[650px] clsteamContainer">
+      <div class="mb-10 md:mb-16  max-w-[34%] pr-[75px] fixed mt-[6rem] clsteamContent">
+        <h2 class="text-3xl font-bold mb-4 text-[#000] text-[40px] text-[#333] capitalize pt-4">
           {wpPage.title}
         </h2>
         <p
-          class="max-w-screen-md mx-auto pr-[2rem] mt-[4px] text-left md:text-lg"
+          class="max-w-screen-md mx-auto mt-[4px] text-left md:text-lg"
           dangerouslySetInnerHTML={{ __html: wpPage.content }}
         />
-        <div className="mt-[20px] ">
+        <div className="mt-[20px] mb-[15px] clsCatBtnArchive">
           <Category catId={catId} categories={categories.edges} />
         </div>
         <div>
-          <Link to="/organization">
-            <button class="bg-[#fff] mt-2 rounded-md hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+        <Link to="/organization">
+            <button class="bg-[#fff] mt-0 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Organization Chart
             </button>
           </Link>
         </div>
         <div>
           <Link to="/careers">
-            <button class="bg-[#fff] mt-7 rounded-md hover:bg-[#000] text-[#000] font-semibold hover:text-[#fff] py-2 px-6 border border-black">
+            <button class="bg-[#fff] mt-7 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Join us
             </button>
           </Link>
         </div>
       </div>
 
-      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[8rem] md:mt-[4rem] mb-[4rem] clsteamImage">
+      <div class="grid gap-4 md:grid-cols-3 w-[62%] ml-auto h-fit lg:mt-[6.5rem] md:mt-[4rem] mb-[8rem] clsteamImage">
         {allWpTeam.nodes.map(t => (
           <div class="p-4 shadow-lg max-h-[460px]">
             <div class="h-[250px] mb-2 overflow-hidden rounded-lg bg-[#f5f5f5] md:h-[250px] clsTeamImagediv">

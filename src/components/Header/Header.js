@@ -47,7 +47,7 @@ const Header = () => {
                   to={mainItem.url}
                   onClick={closeMenu}
                   activeClassName="nav-active"
-                  className="text-gray-800 hover:text-gray-400 duration-100"
+                  className="text-gray-800 hover:text-gray-400 duration-50"
                 >
                   {mainItem.label}
                   {mainItem.childItems.nodes.length !== 0 && <div>&#8964;</div>}
@@ -84,7 +84,7 @@ const Header = () => {
                   </Link>
                 </div>  */}
         <div>
-<Link to="/careers"><button class="clsteambtn justify-center items-center  bg-[#a31e22] mt-2 hover:bg-[#333] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#333] rounded-md "href="#">Join Our Team</button></Link>
+<Link to="/careers"><button class="clsteambtn justify-center items-center  bg-[#a31e22] mt-0 hover:bg-[#333] text-[#fff] font-semibold hover:text-[#fff] py-2 px-6 border hover:border-[#333] rounded-md "href="#">Join Our Team</button></Link>
 </div>
       </nav>
 

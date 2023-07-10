@@ -229,10 +229,6 @@ iframe {
 
 /**ABOUT US ****/
 
-.clsParentCol{
-    
-    padding-bottom: 35px;
-}
 .clsRight img{
   width: 95%;
 }
@@ -967,4 +963,6 @@ background-size: contain;
 .clsHomeImgContainer {
   width: 32.5%;
 }
-
+.PrivateTabIndicator-colorSecondary-7{
+  background-color: #a51720!important;
+}

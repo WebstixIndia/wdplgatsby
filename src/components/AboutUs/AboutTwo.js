@@ -14,7 +14,7 @@ export default function AboutTwo() {
       <div class="flex flex-wrap ">
         <div class="grow-0 shrink-0  basis-auto mb-12 md:mb-0 w-full md:w-12/12 md:pb-12 lg:w-6/12 px-3 lg:px-2">
           <h2
-            class="text-3xl font-bold mb-6 text-[#333] text-[36px] capitalize pt-4"
+            class="text-3xl font-bold mb-6 text-[#333] text-[30px] capitalize pt-4"
             dangerouslySetInnerHTML={{ __html: title }}
           ></h2>
           <div class="flex items-start rounded-xl  lg:w-[90%] ">

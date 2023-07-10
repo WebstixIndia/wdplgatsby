@@ -14,7 +14,7 @@ export default function Homegallery() {
         <section class="max-w-[85rem] mx-auto mt-[6rem] lg:pl-6 lg:pr-8 clsHomeGalleryMain">
           <div class="">
             <div class="ml-2">
-              <h2 class="text-3xl font-bold mb-8 text-[#333] text-[36px]">
+              <h2 class="text-3xl font-bold mb-8 text-[#333] text-[30px]">
                 Gallery
               </h2>
               <div className="">

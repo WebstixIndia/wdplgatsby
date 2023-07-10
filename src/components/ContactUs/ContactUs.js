@@ -22,7 +22,7 @@ export default function ContactUs() {
         <div class="flex flex-wrap pr-[0px] ">
 
           <div class="grow-0 shrink-0 basis-auto mb-6 mt-[1rem] md:mb-0 w-full  px-3 lg:px-6">
-            <h2 class="text-3xl  font-bold mb-8 text-center text-[#333] text-[40px] capitalize clsContactHeading">
+            <h2 class="text-3xl  font-bold mb-8 text-center text-[#333] text-[30px] capitalize clsContactHeading">
               {title}
               
             </h2>

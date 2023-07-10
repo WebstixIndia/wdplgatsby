@@ -626,8 +626,8 @@ iframe {
   .clsHomeGallery .galleryWrap{
     gap: 10px!important;
   }  
-  .clsContact{
-    padding-bottom: 60px!important;
+  .clshomecontact .clsContact{
+    padding-bottom: 30px!important;
   }
 }
 @media screen and (max-width: 375px) {

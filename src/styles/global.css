@@ -261,6 +261,9 @@ iframe {
 }
 
 @media screen and (max-width: 1024px) {
+  .shape-blob, .shape-blob.one, .shape-blob.three {
+    display: none;
+  }
   .clsHomeGallery{
     margin-bottom: 50px!important;
       
@@ -847,10 +850,10 @@ blockquote span {
 .shape-blob {
 	background:#fc6868;
 	height: 150px;
-	width: 210px;
+	width: 160px;
 	border-radius: 30% 50% 20% 40%;
   	animation: 
-		transform 10s ease-in-out infinite both alternate,
+		transform 10s ease-in infinite both alternate,
 		movement_one 40s ease-in-out infinite both;
 	opacity:.10;
 	position: absolute;
@@ -865,21 +868,21 @@ blockquote span {
 .shape-blob.three {
   height: 200px;
 	width: 200px;
-	left: 80%;
-	top: -0.3%;
-	transform: rotate(-180deg);
-  animation: transform 10s ease-in-out infinite both , movement_two 10s ease-in-out infinite both;
+	left: 74%;
+	top: -90px;
+	transform: rotate(-280deg);
+  animation: transform 15s ease-out infinite both , movement_two 20s ease-out infinite both;
   z-index: -999;
-
+  
 }
 
 
 .shape-blob.one{
-	height: 200px;
-	width: 200px;
-	left: 2px;
-	top: -200px;
-	transform: rotate(-180deg);
+	height: 150px;
+	width: 150px;
+	left: 1%;
+	top: -100px;
+	transform: rotate(-160deg);
   z-index: -999;
   animation: transform 10s ease-in-out infinite both , movement_two 10s ease-in-out infinite both;
 }
@@ -963,6 +966,6 @@ background-size: contain;
 .clsHomeImgContainer {
   width: 32.5%;
 }
-.PrivateTabIndicator-colorSecondary-7{
+.MuiTabs-indicator{
   background-color: #a51720!important;
 }

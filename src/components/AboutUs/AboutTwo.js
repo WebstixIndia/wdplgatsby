@@ -10,7 +10,7 @@ export default function AboutTwo() {
   const Image = data.wpPage.featuredImage.node.localFile.publicURL
 
   return (
-    <section class="max-w-[85rem] mx-auto lg:mt-[6rem]  lg:px-6 clsAbouttwo">
+    <section class="max-w-[85rem] mx-auto lg:mt-[6rem]  lg:px-6 clsAbouttwo ">
       <div class="flex flex-wrap ">
         <div class="grow-0 shrink-0  basis-auto mb-12 md:mb-0 w-full md:w-12/12 md:pb-12 lg:w-6/12 px-3 lg:px-2">
           <h2

@@ -51,7 +51,7 @@ export const Team = () => {
             </button>
           </Link>
         </div>
-        <div>
+        <div> 
           <Link to="/careers">
             <button class="bg-[#fff] mt-7 hover:bg-[#333] text-[#333] rounded-md font-semibold hover:text-[#fff] py-[0.5rem] px-[1.2rem] text-[14px]  border border-black">
               Join us
@@ -89,7 +89,7 @@ export const Team = () => {
                   ) : null}
                 </div>
               </div>
-              <p class="text-sm text-gray-500 md:text-base clsDesignation">
+              <p class="text-sm text-gray-500 md:text-base clsDesignation text-[16px]">
                 {t.teamDetails.designation}
               </p>
 

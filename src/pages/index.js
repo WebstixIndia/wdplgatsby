@@ -22,9 +22,10 @@ export default function index() {
       <Header />
       <div clasName="clsHomeContainer">
         <Carousel />
-         <div class="clsAboutUsTwo">
+         <div class="clsAboutUsTwo ">
         <AboutUsTwo />
         </div>
+        <div clasname="blobs"><div class="shape-blob"></div><div class="shape-blob one"></div><div class="shape-blob three"></div></div>
        
   
         <div class="clsHomeGallery">

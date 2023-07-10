@@ -74,7 +74,7 @@ export const Team = () => {
 
             <div class="flex flex-col items-left justify-center">
               <div className="flex justify-between">
-                <div class="font-bold text-[#333] md:text-lg">{t.title}</div>
+                <div class="font-bold text-[#333] md:text-lg clsPersonName">{t.title}</div>
                 <div className="pt-1">
                   {t.teamDetails.linkedin ? (
                     <div class="flex">

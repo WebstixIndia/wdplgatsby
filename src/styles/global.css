@@ -631,6 +631,9 @@ iframe {
   }
 }
 @media screen and (max-width: 375px) {
+  .clsPersonName{
+     font-size: 14px!important;
+  }
   .clshomecontact{
   background-position: center bottom 65px!important;
 }
@@ -642,7 +645,7 @@ iframe {
     padding-bottom: 10px;
   }
   .clsteamImage .clsTeamImagediv {
-    height: 165px !important;
+    height: 150px !important;
   }
   .clsTeamImagediv img {
     height: 200px !important;

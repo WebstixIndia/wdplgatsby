@@ -11,7 +11,7 @@ import { useHomeBannerQuery } from "../../hooks/useHomebanner"
 
 function Carousel() {
   const data = useHomeBannerQuery()
-  console.log(data)
+  
   const Content = data.wpPage.content
   const BannerImg = data.wpPage.featuredImage.node.localFile.publicURL
 

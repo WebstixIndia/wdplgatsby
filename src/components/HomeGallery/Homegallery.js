@@ -4,9 +4,10 @@ import { useHomeGallery } from "../../hooks/useHomeGallery"
 
 export default function Homegallery() {
   const data = useHomeGallery()
-
+  
   const galleryImages = data.wpGallery.gallery.photos
   const slice = galleryImages
+  const Content = data.wpGallery.content  
 
   return (
     <>
@@ -22,10 +23,10 @@ export default function Homegallery() {
                   <div className="w-[38%] pr-12 h-full clsHomeGallerydivOne pt-[12px]">
                     <p
                       className="text-[22px] leading-7 font-bold sidekick blockquote"
-                      // dangerouslySetInnerHTML={{ __html: Content }}
+                        dangerouslySetInnerHTML={{ __html: Content }}
                     >
-                      {" "}
-                      Where work meets joy and collaboration thrives, magic happens and joy flourishes.
+                      
+        
 </p>
                     <div className=" mt-5 clsHomeGallerybtn">
                       <Link to="/gallery">

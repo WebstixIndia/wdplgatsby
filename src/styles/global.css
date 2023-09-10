@@ -963,12 +963,14 @@ background-size: contain;
 .clsHomeGallery .galleryWrap .single {
   width: 100%;
   padding-bottom: 0px;
+
 }
 
 .clsHomeGallery .galleryWrap .single img {
   width: 100%;
   height: 156px;
   object-fit: cover;
+  pointer-events: none;
 }
 
 
